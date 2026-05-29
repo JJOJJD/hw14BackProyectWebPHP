@@ -46,8 +46,12 @@ class UserController
             Response::json(true, $user, "Login con Google exitoso");
         } else {
             $hashedPassword = password_hash(bin2hex(random_bytes(16)), PASSWORD_BCRYPT);
+            
+            // Generar RUC aleatorio de 13 dígitos para evitar colisiones
+            $randomRuc = sprintf('%013d', mt_rand(1, 999999999));
+            
             $data = [
-                'ruc' => '9999999999999',
+                'ruc' => $randomRuc,
                 'firstName' => $firstName ?: 'Usuario',
                 'lastName' => $lastName ?: 'Google',
                 'email' => $email,
