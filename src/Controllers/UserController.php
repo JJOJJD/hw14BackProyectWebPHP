@@ -29,6 +29,43 @@ class UserController
         Response::json(false, null, "Invalid credentials", 401);
     }
 
+    public function googleLogin(): void
+    {
+        $input = json_decode(file_get_contents('php://input'), true);
+        $email = $input['email'] ?? '';
+        $firstName = $input['firstName'] ?? '';
+        $lastName = $input['lastName'] ?? '';
+
+        if (!$email) {
+            Response::json(false, null, "Correo de Google requerido", 400);
+        }
+
+        $user = $this->userRepository->findByEmail($email);
+
+        if ($user) {
+            Response::json(true, $user, "Login con Google exitoso");
+        } else {
+            $hashedPassword = password_hash(bin2hex(random_bytes(16)), PASSWORD_BCRYPT);
+            $data = [
+                'ruc' => '9999999999999',
+                'firstName' => $firstName ?: 'Usuario',
+                'lastName' => $lastName ?: 'Google',
+                'email' => $email,
+                'password' => $hashedPassword
+            ];
+
+            try {
+                $newUser = $this->userRepository->create($data);
+                if ($newUser) {
+                    Response::json(true, $newUser, "Usuario creado y logueado con Google", 201);
+                }
+            } catch (\Exception $e) {
+                Response::json(false, null, "Fallo al registrar usuario con Google", 500);
+            }
+        }
+        Response::json(false, null, "Error inesperado en Google Login", 500);
+    }
+
     public function register(): void
     {
         $input = json_decode(file_get_contents('php://input'), true);

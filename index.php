@@ -26,6 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 $router = new Router();
 
 $router->addRoute('POST', '/users/login', [UserController::class, 'login']);
+$router->addRoute('POST', '/users/google-login', [UserController::class, 'googleLogin']);
 $router->addRoute('POST', '/users/register', [UserController::class, 'register']);
 $router->addRoute('POST', '/users/reset-password', [UserController::class, 'resetPassword']);
 $router->addRoute('GET', '/users', [UserController::class, 'index']);
