@@ -1,0 +1,919 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "check.php",
+      "file_type": "code",
+      "source_file": "check.php",
+      "source_location": "L1",
+      "id": "check_php",
+      "community": 9,
+      "norm_label": "check.php"
+    },
+    {
+      "label": "index.php",
+      "file_type": "code",
+      "source_file": "index.php",
+      "source_location": "L1",
+      "id": "index_php",
+      "community": 10,
+      "norm_label": "index.php"
+    },
+    {
+      "label": "DashboardController.php",
+      "file_type": "code",
+      "source_file": "src/Controllers/DashboardController.php",
+      "source_location": "L1",
+      "id": "src_controllers_dashboardcontroller_php",
+      "community": 6,
+      "norm_label": "dashboardcontroller.php"
+    },
+    {
+      "label": "DashboardController",
+      "file_type": "code",
+      "source_file": "src/Controllers/DashboardController.php",
+      "source_location": "L7",
+      "id": "controllers_dashboardcontroller_dashboardcontroller",
+      "community": 6,
+      "norm_label": "dashboardcontroller"
+    },
+    {
+      "label": ".getSummary()",
+      "file_type": "code",
+      "source_file": "src/Controllers/DashboardController.php",
+      "source_location": "L9",
+      "id": "controllers_dashboardcontroller_dashboardcontroller_getsummary",
+      "community": 6,
+      "norm_label": ".getsummary()"
+    },
+    {
+      "label": "SupportController.php",
+      "file_type": "code",
+      "source_file": "src/Controllers/SupportController.php",
+      "source_location": "L1",
+      "id": "src_controllers_supportcontroller_php",
+      "community": 2,
+      "norm_label": "supportcontroller.php"
+    },
+    {
+      "label": "SupportController",
+      "file_type": "code",
+      "source_file": "src/Controllers/SupportController.php",
+      "source_location": "L9",
+      "id": "controllers_supportcontroller_supportcontroller",
+      "community": 2,
+      "norm_label": "supportcontroller"
+    },
+    {
+      "label": ".create()",
+      "file_type": "code",
+      "source_file": "src/Controllers/SupportController.php",
+      "source_location": "L11",
+      "id": "controllers_supportcontroller_supportcontroller_create",
+      "community": 2,
+      "norm_label": ".create()"
+    },
+    {
+      "label": ".generateUuid()",
+      "file_type": "code",
+      "source_file": "src/Controllers/SupportController.php",
+      "source_location": "L55",
+      "id": "controllers_supportcontroller_supportcontroller_generateuuid",
+      "community": 2,
+      "norm_label": ".generateuuid()"
+    },
+    {
+      "label": "UserController.php",
+      "file_type": "code",
+      "source_file": "src/Controllers/UserController.php",
+      "source_location": "L1",
+      "id": "src_controllers_usercontroller_php",
+      "community": 0,
+      "norm_label": "usercontroller.php"
+    },
+    {
+      "label": "UserController",
+      "file_type": "code",
+      "source_file": "src/Controllers/UserController.php",
+      "source_location": "L8",
+      "id": "controllers_usercontroller_usercontroller",
+      "community": 0,
+      "norm_label": "usercontroller"
+    },
+    {
+      "label": ".__construct()",
+      "file_type": "code",
+      "source_file": "src/Controllers/UserController.php",
+      "source_location": "L12",
+      "id": "controllers_usercontroller_usercontroller_construct",
+      "community": 0,
+      "norm_label": ".__construct()"
+    },
+    {
+      "label": ".login()",
+      "file_type": "code",
+      "source_file": "src/Controllers/UserController.php",
+      "source_location": "L17",
+      "id": "controllers_usercontroller_usercontroller_login",
+      "community": 1,
+      "norm_label": ".login()"
+    },
+    {
+      "label": ".googleLogin()",
+      "file_type": "code",
+      "source_file": "src/Controllers/UserController.php",
+      "source_location": "L32",
+      "id": "controllers_usercontroller_usercontroller_googlelogin",
+      "community": 0,
+      "norm_label": ".googlelogin()"
+    },
+    {
+      "label": ".register()",
+      "file_type": "code",
+      "source_file": "src/Controllers/UserController.php",
+      "source_location": "L73",
+      "id": "controllers_usercontroller_usercontroller_register",
+      "community": 0,
+      "norm_label": ".register()"
+    },
+    {
+      "label": ".index()",
+      "file_type": "code",
+      "source_file": "src/Controllers/UserController.php",
+      "source_location": "L116",
+      "id": "controllers_usercontroller_usercontroller_index",
+      "community": 1,
+      "norm_label": ".index()"
+    },
+    {
+      "label": ".resetPassword()",
+      "file_type": "code",
+      "source_file": "src/Controllers/UserController.php",
+      "source_location": "L122",
+      "id": "controllers_usercontroller_usercontroller_resetpassword",
+      "community": 0,
+      "norm_label": ".resetpassword()"
+    },
+    {
+      "label": ".update()",
+      "file_type": "code",
+      "source_file": "src/Controllers/UserController.php",
+      "source_location": "L147",
+      "id": "controllers_usercontroller_usercontroller_update",
+      "community": 1,
+      "norm_label": ".update()"
+    },
+    {
+      "label": ".delete()",
+      "file_type": "code",
+      "source_file": "src/Controllers/UserController.php",
+      "source_location": "L179",
+      "id": "controllers_usercontroller_usercontroller_delete",
+      "community": 0,
+      "norm_label": ".delete()"
+    },
+    {
+      "label": "Database.php",
+      "file_type": "code",
+      "source_file": "src/Core/Database.php",
+      "source_location": "L1",
+      "id": "src_core_database_php",
+      "community": 7,
+      "norm_label": "database.php"
+    },
+    {
+      "label": "Database",
+      "file_type": "code",
+      "source_file": "src/Core/Database.php",
+      "source_location": "L7",
+      "id": "core_database_database",
+      "community": 7,
+      "norm_label": "database"
+    },
+    {
+      "label": ".boot()",
+      "file_type": "code",
+      "source_file": "src/Core/Database.php",
+      "source_location": "L9",
+      "id": "core_database_database_boot",
+      "community": 7,
+      "norm_label": ".boot()"
+    },
+    {
+      "label": "Response.php",
+      "file_type": "code",
+      "source_file": "src/Core/Response.php",
+      "source_location": "L1",
+      "id": "src_core_response_php",
+      "community": 1,
+      "norm_label": "response.php"
+    },
+    {
+      "label": "Response",
+      "file_type": "code",
+      "source_file": "src/Core/Response.php",
+      "source_location": "L5",
+      "id": "core_response_response",
+      "community": 1,
+      "norm_label": "response"
+    },
+    {
+      "label": ".json()",
+      "file_type": "code",
+      "source_file": "src/Core/Response.php",
+      "source_location": "L7",
+      "id": "core_response_response_json",
+      "community": 1,
+      "norm_label": ".json()"
+    },
+    {
+      "label": "Router.php",
+      "file_type": "code",
+      "source_file": "src/Core/Router.php",
+      "source_location": "L1",
+      "id": "src_core_router_php",
+      "community": 4,
+      "norm_label": "router.php"
+    },
+    {
+      "label": "Router",
+      "file_type": "code",
+      "source_file": "src/Core/Router.php",
+      "source_location": "L5",
+      "id": "core_router_router",
+      "community": 4,
+      "norm_label": "router"
+    },
+    {
+      "label": ".addRoute()",
+      "file_type": "code",
+      "source_file": "src/Core/Router.php",
+      "source_location": "L9",
+      "id": "core_router_router_addroute",
+      "community": 4,
+      "norm_label": ".addroute()"
+    },
+    {
+      "label": ".dispatch()",
+      "file_type": "code",
+      "source_file": "src/Core/Router.php",
+      "source_location": "L18",
+      "id": "core_router_router_dispatch",
+      "community": 4,
+      "norm_label": ".dispatch()"
+    },
+    {
+      "label": "SupportTicket.php",
+      "file_type": "code",
+      "source_file": "src/Models/SupportTicket.php",
+      "source_location": "L1",
+      "id": "src_models_supportticket_php",
+      "community": 2,
+      "norm_label": "supportticket.php"
+    },
+    {
+      "label": "SupportTicket",
+      "file_type": "code",
+      "source_file": "src/Models/SupportTicket.php",
+      "source_location": "L7",
+      "id": "models_supportticket_supportticket",
+      "community": 2,
+      "norm_label": "supportticket"
+    },
+    {
+      "label": "User.php",
+      "file_type": "code",
+      "source_file": "src/Models/User.php",
+      "source_location": "L1",
+      "id": "src_models_user_php",
+      "community": 3,
+      "norm_label": "user.php"
+    },
+    {
+      "label": "User",
+      "file_type": "code",
+      "source_file": "src/Models/User.php",
+      "source_location": "L7",
+      "id": "models_user_user",
+      "community": 3,
+      "norm_label": "user"
+    },
+    {
+      "label": "UserRepository.php",
+      "file_type": "code",
+      "source_file": "src/Repositories/UserRepository.php",
+      "source_location": "L1",
+      "id": "src_repositories_userrepository_php",
+      "community": 5,
+      "norm_label": "userrepository.php"
+    },
+    {
+      "label": "UserRepository",
+      "file_type": "code",
+      "source_file": "src/Repositories/UserRepository.php",
+      "source_location": "L7",
+      "id": "repositories_userrepository_userrepository",
+      "community": 5,
+      "norm_label": "userrepository"
+    },
+    {
+      "label": ".findByEmail()",
+      "file_type": "code",
+      "source_file": "src/Repositories/UserRepository.php",
+      "source_location": "L9",
+      "id": "repositories_userrepository_userrepository_findbyemail",
+      "community": 3,
+      "norm_label": ".findbyemail()"
+    },
+    {
+      "label": ".findById()",
+      "file_type": "code",
+      "source_file": "src/Repositories/UserRepository.php",
+      "source_location": "L14",
+      "id": "repositories_userrepository_userrepository_findbyid",
+      "community": 5,
+      "norm_label": ".findbyid()"
+    },
+    {
+      "label": ".findAll()",
+      "file_type": "code",
+      "source_file": "src/Repositories/UserRepository.php",
+      "source_location": "L19",
+      "id": "repositories_userrepository_userrepository_findall",
+      "community": 3,
+      "norm_label": ".findall()"
+    },
+    {
+      "label": ".create()",
+      "file_type": "code",
+      "source_file": "src/Repositories/UserRepository.php",
+      "source_location": "L24",
+      "id": "repositories_userrepository_userrepository_create",
+      "community": 8,
+      "norm_label": ".create()"
+    },
+    {
+      "label": ".update()",
+      "file_type": "code",
+      "source_file": "src/Repositories/UserRepository.php",
+      "source_location": "L32",
+      "id": "repositories_userrepository_userrepository_update",
+      "community": 5,
+      "norm_label": ".update()"
+    },
+    {
+      "label": ".delete()",
+      "file_type": "code",
+      "source_file": "src/Repositories/UserRepository.php",
+      "source_location": "L41",
+      "id": "repositories_userrepository_userrepository_delete",
+      "community": 3,
+      "norm_label": ".delete()"
+    },
+    {
+      "label": ".generateUuid()",
+      "file_type": "code",
+      "source_file": "src/Repositories/UserRepository.php",
+      "source_location": "L50",
+      "id": "repositories_userrepository_userrepository_generateuuid",
+      "community": 8,
+      "norm_label": ".generateuuid()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Controllers/DashboardController.php",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_controllers_dashboardcontroller_php",
+      "target": "controllers_dashboardcontroller_dashboardcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Controllers/DashboardController.php",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "controllers_dashboardcontroller_dashboardcontroller",
+      "target": "controllers_dashboardcontroller_dashboardcontroller_getsummary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/Controllers/DashboardController.php",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "controllers_dashboardcontroller_dashboardcontroller_getsummary",
+      "target": "core_response_response"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Controllers/SupportController.php",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_controllers_supportcontroller_php",
+      "target": "controllers_supportcontroller_supportcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Controllers/SupportController.php",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "controllers_supportcontroller_supportcontroller",
+      "target": "controllers_supportcontroller_supportcontroller_create",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Controllers/SupportController.php",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "controllers_supportcontroller_supportcontroller",
+      "target": "controllers_supportcontroller_supportcontroller_generateuuid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Controllers/SupportController.php",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "controllers_supportcontroller_supportcontroller_create",
+      "target": "controllers_supportcontroller_supportcontroller_generateuuid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/Controllers/SupportController.php",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "controllers_supportcontroller_supportcontroller_create",
+      "target": "core_response_response"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/Controllers/SupportController.php",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "controllers_supportcontroller_supportcontroller_create",
+      "target": "models_user_user"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/Controllers/SupportController.php",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "controllers_supportcontroller_supportcontroller_create",
+      "target": "models_supportticket_supportticket"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Controllers/UserController.php",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_controllers_usercontroller_php",
+      "target": "controllers_usercontroller_usercontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Controllers/UserController.php",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "controllers_usercontroller_usercontroller",
+      "target": "controllers_usercontroller_usercontroller_construct",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Controllers/UserController.php",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "controllers_usercontroller_usercontroller",
+      "target": "controllers_usercontroller_usercontroller_login",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Controllers/UserController.php",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "controllers_usercontroller_usercontroller",
+      "target": "controllers_usercontroller_usercontroller_googlelogin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Controllers/UserController.php",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "controllers_usercontroller_usercontroller",
+      "target": "controllers_usercontroller_usercontroller_register",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Controllers/UserController.php",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "controllers_usercontroller_usercontroller",
+      "target": "controllers_usercontroller_usercontroller_index",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Controllers/UserController.php",
+      "source_location": "L122",
+      "weight": 1.0,
+      "source": "controllers_usercontroller_usercontroller",
+      "target": "controllers_usercontroller_usercontroller_resetpassword",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Controllers/UserController.php",
+      "source_location": "L147",
+      "weight": 1.0,
+      "source": "controllers_usercontroller_usercontroller",
+      "target": "controllers_usercontroller_usercontroller_update",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Controllers/UserController.php",
+      "source_location": "L179",
+      "weight": 1.0,
+      "source": "controllers_usercontroller_usercontroller",
+      "target": "controllers_usercontroller_usercontroller_delete",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/Controllers/UserController.php",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "controllers_usercontroller_usercontroller_login",
+      "target": "core_response_response"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/Controllers/UserController.php",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "controllers_usercontroller_usercontroller_googlelogin",
+      "target": "core_response_response"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/Controllers/UserController.php",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "controllers_usercontroller_usercontroller_register",
+      "target": "core_response_response"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/Controllers/UserController.php",
+      "source_location": "L119",
+      "weight": 1.0,
+      "source": "controllers_usercontroller_usercontroller_index",
+      "target": "core_response_response"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/Controllers/UserController.php",
+      "source_location": "L129",
+      "weight": 1.0,
+      "source": "controllers_usercontroller_usercontroller_resetpassword",
+      "target": "core_response_response"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/Controllers/UserController.php",
+      "source_location": "L153",
+      "weight": 1.0,
+      "source": "controllers_usercontroller_usercontroller_update",
+      "target": "core_response_response"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/Controllers/UserController.php",
+      "source_location": "L185",
+      "weight": 1.0,
+      "source": "controllers_usercontroller_usercontroller_delete",
+      "target": "core_response_response"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Core/Database.php",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_core_database_php",
+      "target": "core_database_database",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Core/Database.php",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "core_database_database",
+      "target": "core_database_database_boot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Core/Response.php",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_core_response_php",
+      "target": "core_response_response",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Core/Response.php",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "core_response_response",
+      "target": "core_response_response_json",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/Core/Router.php",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "core_router_router_dispatch",
+      "target": "core_response_response"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Core/Router.php",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_core_router_php",
+      "target": "core_router_router",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Core/Router.php",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "core_router_router",
+      "target": "core_router_router_addroute",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Core/Router.php",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "core_router_router",
+      "target": "core_router_router_dispatch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Models/SupportTicket.php",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_models_supportticket_php",
+      "target": "models_supportticket_supportticket",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Models/User.php",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_models_user_php",
+      "target": "models_user_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/Repositories/UserRepository.php",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "repositories_userrepository_userrepository_findbyemail",
+      "target": "models_user_user"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/Repositories/UserRepository.php",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "repositories_userrepository_userrepository_findbyid",
+      "target": "models_user_user"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/Repositories/UserRepository.php",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "repositories_userrepository_userrepository_findall",
+      "target": "models_user_user"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/Repositories/UserRepository.php",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "repositories_userrepository_userrepository_create",
+      "target": "models_user_user"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/Repositories/UserRepository.php",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "repositories_userrepository_userrepository_update",
+      "target": "models_user_user"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/Repositories/UserRepository.php",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "repositories_userrepository_userrepository_delete",
+      "target": "models_user_user"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Repositories/UserRepository.php",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_repositories_userrepository_php",
+      "target": "repositories_userrepository_userrepository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Repositories/UserRepository.php",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "repositories_userrepository_userrepository",
+      "target": "repositories_userrepository_userrepository_findbyemail",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Repositories/UserRepository.php",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "repositories_userrepository_userrepository",
+      "target": "repositories_userrepository_userrepository_findbyid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Repositories/UserRepository.php",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "repositories_userrepository_userrepository",
+      "target": "repositories_userrepository_userrepository_findall",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Repositories/UserRepository.php",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "repositories_userrepository_userrepository",
+      "target": "repositories_userrepository_userrepository_create",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Repositories/UserRepository.php",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "repositories_userrepository_userrepository",
+      "target": "repositories_userrepository_userrepository_update",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Repositories/UserRepository.php",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "repositories_userrepository_userrepository",
+      "target": "repositories_userrepository_userrepository_delete",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Repositories/UserRepository.php",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "repositories_userrepository_userrepository",
+      "target": "repositories_userrepository_userrepository_generateuuid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/Repositories/UserRepository.php",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "repositories_userrepository_userrepository_create",
+      "target": "repositories_userrepository_userrepository_generateuuid",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "7534098158578af7534a4ff2d8c5c6df0bcb38cb"
+}

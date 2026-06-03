@@ -36,4 +36,4 @@ logs/
 vendor/
 
 # Graphify
-graphify-out/
+#graphify-out/
